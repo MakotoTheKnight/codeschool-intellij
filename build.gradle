@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+jar {
+
+    version '0.1'
+
+    from(projectDir) {
+        include 'installed.txt'
+        include 'IntelliJ IDEA Global Settings'
+        include 'colors/**'
+        include 'options/**'
+    }
+}

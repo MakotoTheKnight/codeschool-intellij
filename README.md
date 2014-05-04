@@ -22,7 +22,7 @@ How to Build
 
 This project uses Gradle to assemble the JAR.  Ensure that you have gradle installed, and run the command:
 
-    gradle:jar
+    gradle jar
 
 ...and you should have the working copy in your build/libs directory.
 

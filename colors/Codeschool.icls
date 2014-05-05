@@ -4,15 +4,32 @@
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
-    <option name="ANNOTATIONS_COLOR" value="f0f0f0" />
-    <option name="ANNOTATIONS_MERGED_COLOR" value="b5b5a8" />
+    <option name="ADDED_LINES_COLOR" value="15bc7d" />
+    <option name="ANNOTATIONS_COLOR" value="3c98d9" />
+    <option name="ANNOTATIONS_MERGED_COLOR" value="999eb5" />
     <option name="CARET_COLOR" value="9ea7a6" />
     <option name="CARET_ROW_COLOR" value="23373b" />
     <option name="CONSOLE_BACKGROUND_KEY" value="293035" />
+    <option name="FILESTATUS_ADDED" value="15bc7d" />
+    <option name="FILESTATUS_COPIED" value="d400" />
+    <option name="FILESTATUS_DELETED" value="a1a1a1" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="b957e5" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="8f986e" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ee4900" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ee4900" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ee4900" />
+    <option name="FILESTATUS_MERGED" value="c513e0" />
+    <option name="FILESTATUS_MODIFIED" value="3c98d9" />
+    <option name="FILESTATUS_RENAMED" value="baba" />
+    <option name="FILESTATUS_UNKNOWN" value="ce3d00" />
+    <option name="FILESTATUS_addedOutside" value="15bc7d" />
+    <option name="FILESTATUS_changelistConflict" value="ee4900" />
+    <option name="FILESTATUS_modifiedOutside" value="3c98d9" />
     <option name="GUTTER_BACKGROUND" value="2a343a" />
     <option name="INDENT_GUIDE" value="535353" />
     <option name="LINE_NUMBERS_COLOR" value="84898c" />
     <option name="METHOD_SEPARATORS_COLOR" value="535353" />
+    <option name="MODIFIED_LINES_COLOR" value="4e7a83" />
     <option name="NOTIFICATION_BACKGROUND" value="293035" />
     <option name="READONLY_BACKGROUND" value="272e33" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="272e33" />
@@ -44,7 +61,7 @@
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="deda00" />
+        <option name="FOREGROUND" value="f0ff75" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -442,6 +459,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="8bb664" />
+        <option name="BACKGROUND" value="272e33" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -636,7 +654,7 @@
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="b56152" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -754,7 +772,7 @@
     </option>
     <option name="Instance property reference ID">
       <value>
-        <option name="FOREGROUND" value="660e7a" />
+        <option name="FOREGROUND" value="3c98d9" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -891,7 +909,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="6bff" />
+        <option name="BACKGROUND" value="3c98d9" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -915,7 +933,6 @@
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1070,7 +1087,7 @@
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffa74b" />
+        <option name="FOREGROUND" value="baba" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -1089,8 +1106,8 @@
     </option>
     <option name="Unresolved reference access">
       <value>
-        <option name="FOREGROUND" value="ff0000" />
-        <option name="EFFECT_COLOR" value="808080" />
+        <option name="FOREGROUND" value="ffa74b" />
+        <option name="EFFECT_COLOR" value="b5b5a8" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>

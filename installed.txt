@@ -1,1 +1,2 @@
 com.intellij
+net.nicoulaj.idea.markdown

@@ -17,6 +17,24 @@ Things to keep in mind:
 
 
 
+Sample Gallery
+==============
+
+Generics and Breakpoint
+
+ ![Generics and Breakpoint](images/codeschool-intellij_breakpoint.png)
+
+
+ Annotation Coloring
+
+ ![Annotation Coloring](images/codeschool-intellij_annotation.png)
+
+ Diff Window Coloring
+
+ ![Diff Window Coloring](images/codeschool-intellij_diff.png)
+
+
+
 How to Build
 ============
 

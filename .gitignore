@@ -9,4 +9,4 @@ build/
 gradlew
 gradlew.bat
 gradle/
-images/
+images/bad-javadoc.png

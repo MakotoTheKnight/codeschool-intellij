@@ -37,7 +37,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="535353" />
     <option name="SELECTED_INDENT_GUIDE" value="9a9a9a" />
     <option name="SELECTED_TEARLINE_COLOR" value="f0f0f0" />
-    <option name="SELECTION_BACKGROUND" value="5f6462" />
+    <option name="SELECTION_BACKGROUND" value="4a4f4d" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="WHITESPACES" value="7d7f8e" />
   </colors>
@@ -623,7 +623,7 @@
     </option>
     <option name="DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="3d3d3d" />
+        <option name="FOREGROUND" value="f0f0f0" />
         <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="0" />
       </value>

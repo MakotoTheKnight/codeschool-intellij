@@ -2,7 +2,7 @@ apply plugin: 'java'
 
 jar {
 
-    version '0.3'
+    version '0.4'
 
     from(projectDir) {
         include 'installed.txt'

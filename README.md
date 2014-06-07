@@ -5,14 +5,12 @@ This is a port of the Codeschool theme for Vim, found at AstonJ's website:
 
 http://astonj.com/tech/vim-for-ruby-rails-and-a-sexy-theme/
 
-The theme here is geared towards IntelliJ IDEA use, and is recommended for users who prefer a dark IDE background.
+The theme here is geared towards IntelliJ IDEA use, and is recommended for users of the Darcula skin, or those that
+prefer dark themes in general.
 
 Things to keep in mind:
 
- - Vim is a lot more liberal with its code style denoters, so we can't get different colored return types in Java yet.
  - This is **heavily** geared towards a Java/JSP developer; bugs likely exist for your language of choice.
- - Bugs likely exist regardless.  Patches are welcome and desirable.
- - This theme goes (very!) well with Darcula.
  - This has not been tested with any of the other JetBrains IDEs.  Breakage or incompatibility *may* arise.
 
 
@@ -23,6 +21,10 @@ Sample Gallery
 Generics and Breakpoint
 
  ![Generics and Breakpoint](images/codeschool-intellij_breakpoint.png)
+ 
+Landing on a Breakpoint
+
+ ![Landing on a Breakpoint](images/codeschool-intellij_breakpoint_hit.png)
 
 
  Annotation Coloring
@@ -33,6 +35,9 @@ Generics and Breakpoint
 
  ![Diff Window Coloring](images/codeschool-intellij_diff.png)
 
+Terminal Error Message Coloring
+ 
+ ![Terminal error message coloring](images/codeschool-intellij_terminal_error.png)
 
 
 How to Build

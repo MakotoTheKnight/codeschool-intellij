@@ -1,7 +1,10 @@
 apply plugin: 'java'
 
-jar {
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.9'
+}
 
+jar {
     version '0.5'
 
     from(projectDir) {

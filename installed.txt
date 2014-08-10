@@ -1,5 +1,6 @@
 com.intellij
 AngularJS
-Pythonid
 org.intellij.scala
 net.nicoulaj.idea.markdown
+Pythonid
+mobi.hsz.idea.gitignore

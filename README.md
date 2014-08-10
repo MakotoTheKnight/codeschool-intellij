@@ -19,7 +19,7 @@ Supported IDEs
 How to Build
 ============
 
-This project uses Gradle to assemble the JAR.  As of version 0,5, we provide the Gradle Wrapper (v. 1.9) for you to use.
+This project uses Gradle to assemble the JAR.  As of version 0.5, we provide the Gradle Wrapper (v. 1.9) for you to use.
 
 Once it's on your classpath, run the task:
 

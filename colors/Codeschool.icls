@@ -37,7 +37,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="535353" />
     <option name="SELECTED_INDENT_GUIDE" value="9a9a9a" />
     <option name="SELECTED_TEARLINE_COLOR" value="f0f0f0" />
-    <option name="SELECTION_BACKGROUND" value="2d5a83" />
+    <option name="SELECTION_BACKGROUND" value="575d5b" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="WHITESPACES" value="7d7f8e" />
   </colors>
@@ -604,7 +604,7 @@
     <option name="DIFF_INSERTED">
       <value>
         <option name="BACKGROUND" value="4d5f4d" />
-        <option name="ERROR_STRIPE_COLOR" value="4c5e4c" />
+        <option name="ERROR_STRIPE_COLOR" value="324232" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -929,7 +929,7 @@
     </option>
     <option name="Map key">
       <value>
-        <option name="FOREGROUND" value="97b997" />
+        <option name="FOREGROUND" value="8000" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -946,8 +946,10 @@
     </option>
     <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="bdc2dd" />
-        <option name="EFFECT_TYPE" value="0" />
+        <option name="FOREGROUND" value="dd4626" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="ERROR_STRIPE_COLOR" value="dd4626" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="SASS_MIXIN">
@@ -1026,21 +1028,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="SQL_LOCAL_ALIAS">
-      <value>
-        <option name="FOREGROUND" value="74a1d5" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_SCHEMA">
-      <value>
-        <option name="FOREGROUND" value="fdfd00" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="SQL_TABLE">
       <value>
-        <option name="FOREGROUND" value="f0f0f0" />
+        <option name="FOREGROUND" value="ffa26b" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -1107,10 +1097,10 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="696969" />
-        <option name="FONT_TYPE" value="1" />
-        <option name="ERROR_STRIPE_COLOR" value="686868" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="BACKGROUND" value="565656" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="ERROR_STRIPE_COLOR" value="ff6b00" />
+        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">

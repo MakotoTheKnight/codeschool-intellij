@@ -1,7 +1,7 @@
 codeschool-intellij
 ===================
 
-This is a port of the Codeschool theme for Vim, found at [AstonJ's website](http://astonj.com/tech/vim-for-ruby-rails-and-a-sexy-theme/).
+This is a theme in the spirit* of the Codeschool theme for Vim, found at [AstonJ's website](http://astonj.com/tech/vim-for-ruby-rails-and-a-sexy-theme/).
 
 The theme here is geared towards IntelliJ IDEA use, and is recommended for users of the Darcula skin, or those that
 prefer dark themes in general.
@@ -9,7 +9,7 @@ prefer dark themes in general.
 Supported IDEs
 ==============
 
- - IntelliJ IDEA (tested with version 13)
+ - IntelliJ IDEA (tested with version 13 and 14 EAP)
  - 0xDBE (tested with EAP releases)
  
  If your IDE isn't listed, the theme will *likely* work; simply follow the installation instructions below.
@@ -19,11 +19,19 @@ Supported IDEs
 How to Build
 ============
 
-This project uses Gradle to assemble the JAR.  As of version 0.5, we provide the Gradle Wrapper (v. 1.9) for you to use.
+As of version 0.5, we provide the Gradle Wrapper (v. 1.9) for you to use.
 
-Once it's on your classpath, run the task:
+Navigate to the `gradle/` directory, and run this command:
 
-    gradle jar
+ - Linux/OS X:
+
+        ./gradlew jar
+
+
+ - Windows:
+
+        gradlew.bat jar
+
 
 ...and you should have the working copy in your build/libs directory.
 
@@ -73,3 +81,4 @@ Terminal Error Message Coloring
 
 Feedback, patches, and pointing out general usability problems are always welcome.
 
+<sup>*This was formerly a port, but there are likely some artistic liberties taken in this version.</sup>

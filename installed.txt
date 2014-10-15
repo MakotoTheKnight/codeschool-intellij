@@ -1,2 +1,7 @@
 com.intellij
+AngularJS
+org.intellij.scala
+org.jetbrains.plugins.ruby
 net.nicoulaj.idea.markdown
+Pythonid
+mobi.hsz.idea.gitignore

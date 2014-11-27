@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <scheme name="Codeschool" version="124" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
@@ -79,6 +78,12 @@
     <option name="BLINKING_HIGHLIGHTS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="808080" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="BOOKMARKS_ATTRIBUTES">
+      <value>
+        <option name="ERROR_STRIPE_COLOR" value="0" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -707,6 +712,19 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="HTML_CODE">
+      <value>
+        <option name="BACKGROUND" value="272e33" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="HTML_TAG">
+      <value>
+        <option name="FOREGROUND" value="9a9a9a" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="3c98d9" />
@@ -1081,6 +1099,115 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="RHTML_EXPRESSION_END_ID">
+      <value>
+        <option name="FOREGROUND" value="dda790" />
+        <option name="BACKGROUND" value="272e33" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_EXPRESSION_START_ID">
+      <value>
+        <option name="FOREGROUND" value="dda790" />
+        <option name="BACKGROUND" value="272e33" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_SCRIPTING_BACKGROUND_ID">
+      <value>
+        <option name="FOREGROUND" value="3c98d9" />
+        <option name="BACKGROUND" value="272e33" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_SCRIPTLET_END_ID">
+      <value>
+        <option name="FOREGROUND" value="dda790" />
+        <option name="BACKGROUND" value="272e33" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RHTML_SCRIPTLET_START_ID">
+      <value>
+        <option name="FOREGROUND" value="dda790" />
+        <option name="BACKGROUND" value="272e33" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="bfabcb" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_CONSTANT_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="bfabcb" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_CVAR">
+      <value>
+        <option name="FOREGROUND" value="68a9eb" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="dad085" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_INTERPOLATED_STRING">
+      <value>
+        <option name="FOREGROUND" value="8bb664" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="dda790" />
+        <option name="BACKGROUND" value="272e33" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_METHOD_NAME">
+      <value>
+        <option name="FOREGROUND" value="bcdbff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_PARAMDEF_CALL">
+      <value>
+        <option name="FOREGROUND" value="dad085" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_PARAMETER_ID">
+      <value>
+        <option name="FOREGROUND" value="68a9eb" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_SPECIFIC_CALL">
+      <value>
+        <option name="FOREGROUND" value="dad085" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_STRING">
+      <value>
+        <option name="FOREGROUND" value="8bb664" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="RUBY_SYMBOL">
+      <value>
+        <option name="FOREGROUND" value="3c98d9" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="8080" />
@@ -1312,14 +1439,30 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="YAML_SCALAR_DSTRING">
+      <value>
+        <option name="FOREGROUND" value="6d924e" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="3c98d9" />
+        <option name="FOREGROUND" value="8bb664" />
         <option name="BACKGROUND" value="272e33" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_STRING">
+      <value>
+        <option name="FOREGROUND" value="6d924e" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="YAML_SIGN">
+      <value>
+        <option name="FOREGROUND" value="68a9eb" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
   </attributes>
 </scheme>
-

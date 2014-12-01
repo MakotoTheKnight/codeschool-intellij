@@ -1,6 +1,8 @@
 apply plugin: 'java'
 
 import org.ajoberstar.grgit.*
+import org.ajoberstar.grgit.util.*
+import org.joda.time.*
 
 //TODO:  Add support for WhisperSystems gradle-witness plugin for dependency verification
 buildscript {
@@ -10,6 +12,7 @@ buildscript {
 
     dependencies {
         classpath 'org.ajoberstar:gradle-git:0.12.0'
+        classpath 'joda-time:joda-time:2.0' // Sorry, not a fan of java.util.Date
     }
 }
 
@@ -17,12 +20,12 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.1'
 }
 
-jar {
-    ext.repo = Grgit.open(project.file('.'))
-    ext.lastTag = repo.tag.list().last().getName()
-    ext.currentVersion = "${lastTag}-${repo.head().abbreviatedId}"
+ext.repo = Grgit.open(project.file('.'))
 
-    version = currentVersion
+jar {
+    version = "master".equals(repo.branch.getCurrent().getName()) ?
+            "${pullAncestorTag()}-${repo.head().abbreviatedId}" :
+            "${pullAncestorTag()}-${DateTime.now()}"
 
     from(projectDir) {
         include 'installed.txt'
@@ -30,4 +33,18 @@ jar {
         include 'colors/**'
         include 'options/**'
     }
+}
+
+/** Pull down the most recent ancestor tag (walking backwards in the tag hierarchy) and fetch the correct
+ * version based on what source revision is currently checked out.
+ *
+ * @return a String containing the correct tag name of the current HEAD's ancestor
+ */
+def pullAncestorTag() {
+
+    def value = repo.tag.list().reverse().find {
+        JGitUtil.isAncestorOf(repo.repository, it.commit, repo.head())
+    }
+
+    return value.getName()
 }

@@ -1,1 +1,5 @@
 com.intellij
+AngularJS
+mobi.hsz.idea.gitignore
+Pythonid
+org.jetbrains.plugins.ruby

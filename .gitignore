@@ -3,6 +3,4 @@
 *.iws
 .idea/
 .gradle/
-.bat
 build/
-images/bad-javadoc.png

@@ -4,7 +4,6 @@ import org.ajoberstar.grgit.*
 import org.ajoberstar.grgit.util.*
 import org.joda.time.*
 
-//TODO:  Add support for WhisperSystems gradle-witness plugin for dependency verification
 buildscript {
     repositories {
         mavenCentral()
@@ -12,12 +11,12 @@ buildscript {
 
     dependencies {
         classpath 'org.ajoberstar:gradle-git:0.12.0'
-        classpath 'joda-time:joda-time:2.0' // Sorry, not a fan of java.util.Date
+        classpath 'joda-time:joda-time:2.0'
     }
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
+    gradleVersion = '2.3'
 }
 
 ext.repo = Grgit.open(project.file('.'))

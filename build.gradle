@@ -1,8 +1,8 @@
 apply plugin: 'java'
 
-import org.ajoberstar.grgit.*
-import org.ajoberstar.grgit.util.*
-import org.joda.time.*
+import org.ajoberstar.grgit.Grgit
+import org.ajoberstar.grgit.util.JGitUtil
+import org.joda.time.DateTime
 
 buildscript {
     repositories {

@@ -18,7 +18,7 @@ Officially Supported IDEs
  - RubyMine
  - PyCharm
 
-If your IDE isn't on the list, give it a try anyway - let me know if it works without any major issues.
+If your JetBrains IDE isn't on the list, give it a try anyway - let me know if it works without any major issues.
 
 How to Build
 ============

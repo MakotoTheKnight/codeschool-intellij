@@ -17,8 +17,22 @@ Officially Supported IDEs
  - 0xDBE
  - RubyMine
  - PyCharm
+ - WebStorm
+
 
 If your JetBrains IDE isn't on the list, give it a try anyway - let me know if it works without any major issues.
+
+Officially Supported Languages
+========
+
+ - Java
+ - JavaScript (including JSON)
+ - Ruby
+ - Python
+ - HTML
+ - XML
+ - Clojure (with Cursive installed locally)
+
 
 How to Build
 ============
@@ -83,6 +97,10 @@ If you want to file a bug, please include the version number (prefixed by 'v') o
 
 Sample Gallery
 ==============
+
+Database Coloring
+
+ ![Database Coloring](images/codeschool-intellij_database.png)
 
 Generics and Breakpoint
 

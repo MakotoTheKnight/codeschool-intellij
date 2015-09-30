@@ -1,8 +1,8 @@
 apply plugin: 'java'
 
-import org.ajoberstar.grgit.*
-import org.ajoberstar.grgit.util.*
-import org.joda.time.*
+import org.ajoberstar.grgit.Grgit
+import org.ajoberstar.grgit.util.JGitUtil
+import org.joda.time.DateTime
 
 buildscript {
     repositories {
@@ -10,13 +10,13 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.ajoberstar:gradle-git:0.12.0'
-        classpath 'joda-time:joda-time:2.0'
+        classpath 'org.ajoberstar:gradle-git:1.3.0'
+        classpath 'joda-time:joda-time:2.8.2'
     }
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.3'
+    gradleVersion = '2.7'
 }
 
 ext.repo = Grgit.open(project.file('.'))

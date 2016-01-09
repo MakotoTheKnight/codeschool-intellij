@@ -16,7 +16,7 @@ buildscript {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.7'
+    gradleVersion = '2.10'
 }
 
 ext.repo = Grgit.open(project.file('.'))

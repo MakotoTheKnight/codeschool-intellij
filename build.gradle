@@ -4,6 +4,10 @@ import org.ajoberstar.grgit.Grgit
 import org.ajoberstar.grgit.util.JGitUtil
 import org.joda.time.DateTime
 
+ext {
+    repo = Grgit.open()
+}
+
 buildscript {
     repositories {
         mavenCentral()
@@ -14,12 +18,6 @@ buildscript {
         classpath 'joda-time:joda-time:2.9.1'
     }
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.10'
-}
-
-ext.repo = Grgit.open(project.file('.'))
 
 jar {
     version = "master".equals(repo.branch.getCurrent().getName()) ?
@@ -32,6 +30,10 @@ jar {
         include 'colors/**'
         include 'options/**'
     }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.10'
 }
 
 /** Pull down the most recent ancestor tag (walking backwards in the tag hierarchy) and fetch the correct

@@ -10,8 +10,8 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.ajoberstar:gradle-git:1.3.0'
-        classpath 'joda-time:joda-time:2.8.2'
+        classpath 'org.ajoberstar:gradle-git:1.3.2'
+        classpath 'joda-time:joda-time:2.9.1'
     }
 }
 
@@ -40,10 +40,8 @@ jar {
  * @return a String containing the correct tag name of the current HEAD's ancestor
  */
 def pullAncestorTag() {
-
     def value = repo.tag.list().reverse().find {
         JGitUtil.isAncestorOf(repo.repository, it.commit, repo.head())
     }
-
     return value.getName()
 }

@@ -39,7 +39,7 @@ How to Build
 
 We provide the Gradle Wrapper for you to use.
 
-Once the project is cloned, navigate to the `gradle/` directory, and run this command:
+Once the project is cloned, run this command:
 
  - Linux/OS X:
 

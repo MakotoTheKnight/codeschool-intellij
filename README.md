@@ -14,7 +14,7 @@ Officially Supported IDEs
 ==============
 
  - IntelliJ IDEA
- - 0xDBE
+ - DataGrip
  - RubyMine
  - PyCharm
  - WebStorm
@@ -31,13 +31,13 @@ Officially Supported Languages
  - Python
  - HTML
  - XML
- - Clojure (with Cursive installed locally)
+ - SQL
 
 
 How to Build
 ============
 
-We provide the Gradle Wrapper for you to use.
+We provide the Gradle Wrapper for you to use.  Note that you require Java 8 or greater to build the project.
 
 Once the project is cloned, run this command:
 

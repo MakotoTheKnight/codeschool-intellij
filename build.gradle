@@ -26,10 +26,7 @@ jar {
             "${pullAncestorTag()}-${LocalDateTime.now()}"
 
     from(projectDir) {
-        include 'installed.txt'
-        include 'IntelliJ IDEA Global Settings'
-        include 'colors/**'
-        include 'options/**'
+        include 'installed.txt', 'IntelliJ IDEA Global Settings', 'colors/**', 'options/**'
     }
 }
 
